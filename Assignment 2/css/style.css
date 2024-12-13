@@ -1,0 +1,75 @@
+
+body{
+    padding-top: 50px; /* so menu doesnt cover content */
+    background-color: #F2F5EA;
+}
+
+main {
+    font-family: Verdana;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 2em;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.myHeading {
+    font-family: "Lucida Bright";
+    text-align: center;
+    margin: 30px;
+    padding: 15px;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-style: italic;
+    color: #E75A7C;
+}
+
+.card-title {
+    text-decoration: underline;
+}
+
+#more1 {
+  display: none;
+  margin-top: 1em;	
+}
+
+.ui.menu {
+  display: flex;
+  margin: 1rem 0em;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  background: #BBC7A4;
+  font-weight: normal;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  border-radius: 0.28571429rem;
+  min-height: 2.85714286em;
+}
+
+.gallery {
+    background: #BBC7A4; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 50px auto;
+}
+
+.thumbnail {
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+
+
